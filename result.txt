@@ -1,0 +1,24 @@
+STUDENT RESULT REPORT
+ID         Name            M1 M2 M3 M4 M5  Total  %   Grade  CGPA
+
+S101       Rahul            78  85  90  66  72   391  78.20   B     7.82
+S102       Anita            88  91  84  79  86   428  85.60   A     8.56
+S103       Ramesh           45  55  60  50  65   275  55.00   E     5.50
+S104       Priya            92  89  94  90  96   461  92.20   O     9.22
+S105       Kiran            34  48  55  60  40   237  47.40   F     4.74
+
+CLASS STATISTICS
+
+Class Average Percentage : 71.68
+Highest Percentage       : 92.20
+Lowest Percentage        : 47.40
+
+Grade Distribution:
+O : 1
+A : 1
+B : 1
+C : 0
+D : 0
+E : 1
+P : 0
+F : 1
