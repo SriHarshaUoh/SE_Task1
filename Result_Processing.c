@@ -18,7 +18,7 @@ typedef struct {
     char grade;
 } Student;
 
-int ReadStudentsFromFile(const char* fileName, Student students[]);
+int Student_Details(const char* fileName, Student students[]);
 int IsValid_Record(const Student* student, const Student students[], int count);
 void ComputeResults(Student* student);
 char CalculateGrade(float percentage);
@@ -30,7 +30,7 @@ int main()
 {
     Student students[MAX_STUDENTS];
     int studentCount = 0;
-    studentCount = ReadStudentsFromFile("students.txt", students);
+    studentCount = Student_Details("students.txt", students);
     if (studentCount == 0) {
         printf("No valid student records found.\n");
         return 0;
@@ -39,7 +39,7 @@ int main()
     return 0;
 }
 
-int ReadStudentsFromFile(const char* fileName, Student students[])
+int Student_Details(const char* fileName, Student students[])
 {
     FILE* file = fopen(fileName, "r");
     int count = 0;
